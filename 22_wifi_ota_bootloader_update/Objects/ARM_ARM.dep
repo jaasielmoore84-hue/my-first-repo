@@ -1,0 +1,430 @@
+Dependencies for Project 'ARM', Target 'ARM': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\App\main.c)(0x6A229953)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Arm_kernel -I .\Driver -I .\GD32_lib -I .\GD32_lib\Include-ID:\Users\prato\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DGD32F30X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (.\Driver\led_drv.h)(0x6A0C195D)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x68F1F6B7)
+I (.\Driver\delay.h)(0x6A05831D)
+I (.\Driver\usb2com_drv.h)(0x6A0A8BCD)
+I (.\Driver\iap_drv.h)(0x690AF674)
+I (App\store_app.h)(0x6A2293B3)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
+I (.\Driver\inflash_drv.h)(0x6A229224)
+F (.\App\store_app.c)(0x6A2293AD)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Arm_kernel -I .\Driver -I .\GD32_lib -I .\GD32_lib\Include-ID:\Users\prato\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DGD32F30X_HD-o .\objects\store_app.o --omf_browse .\objects\store_app.crf --depend .\objects\store_app.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x68F1F6B7)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (.\Arm_kernel\gd32f30x.h)(0x688B5B58)
+I (.\Arm_kernel\core_cm4.h)(0x688B5B58)
+I (.\Arm_kernel\core_cmInstr.h)(0x688B5B58)
+I (.\Arm_kernel\core_cmFunc.h)(0x688B5B58)
+I (.\Arm_kernel\core_cm4_simd.h)(0x688B5B58)
+I (.\Arm_kernel\system_gd32f30x.h)(0x688B5B58)
+I (.\GD32_lib\gd32f30x_libopt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_rcu.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_adc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_can.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_crc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_ctc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dac.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dbg.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dma.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_exti.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_fmc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_fwdgt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_gpio.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_i2c.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_pmu.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_bkp.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_rtc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_sdio.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_spi.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_timer.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_usart.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_wwdgt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_misc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_enet.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_exmc.h)(0x688B5B58)
+I (App\store_app.h)(0x6A2293B3)
+I (.\Driver\inflash_drv.h)(0x6A229224)
+I (.\Driver\md5.h)(0x6A2270A2)
+F (.\Driver\delay.c)(0x6A068FA4)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Arm_kernel -I .\Driver -I .\GD32_lib -I .\GD32_lib\Include-ID:\Users\prato\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DGD32F30X_HD-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x68F1F6B7)
+I (.\Arm_kernel\gd32f30x.h)(0x688B5B58)
+I (.\Arm_kernel\core_cm4.h)(0x688B5B58)
+I (.\Arm_kernel\core_cmInstr.h)(0x688B5B58)
+I (.\Arm_kernel\core_cmFunc.h)(0x688B5B58)
+I (.\Arm_kernel\core_cm4_simd.h)(0x688B5B58)
+I (.\Arm_kernel\system_gd32f30x.h)(0x688B5B58)
+I (.\GD32_lib\gd32f30x_libopt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_rcu.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_adc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_can.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_crc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_ctc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dac.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dbg.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dma.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_exti.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_fmc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_fwdgt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_gpio.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_i2c.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_pmu.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_bkp.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_rtc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_sdio.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_spi.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_timer.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_usart.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_wwdgt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_misc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_enet.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_exmc.h)(0x688B5B58)
+I (Driver\delay.h)(0x6A05831D)
+F (.\Driver\usb2com_drv.c)(0x6A1BCC8F)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Arm_kernel -I .\Driver -I .\GD32_lib -I .\GD32_lib\Include-ID:\Users\prato\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DGD32F30X_HD-o .\objects\usb2com_drv.o --omf_browse .\objects\usb2com_drv.crf --depend .\objects\usb2com_drv.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x68F1F6B7)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (.\Arm_kernel\gd32f30x.h)(0x688B5B58)
+I (.\Arm_kernel\core_cm4.h)(0x688B5B58)
+I (.\Arm_kernel\core_cmInstr.h)(0x688B5B58)
+I (.\Arm_kernel\core_cmFunc.h)(0x688B5B58)
+I (.\Arm_kernel\core_cm4_simd.h)(0x688B5B58)
+I (.\Arm_kernel\system_gd32f30x.h)(0x688B5B58)
+I (.\GD32_lib\gd32f30x_libopt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_rcu.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_adc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_can.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_crc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_ctc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dac.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dbg.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dma.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_exti.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_fmc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_fwdgt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_gpio.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_i2c.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_pmu.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_bkp.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_rtc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_sdio.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_spi.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_timer.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_usart.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_wwdgt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_misc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_enet.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_exmc.h)(0x688B5B58)
+I (Driver\usb2com_drv.h)(0x6A0A8BCD)
+I (Driver\led_drv.h)(0x6A0C195D)
+F (.\Driver\led_drv.c)(0x6A0C2196)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Arm_kernel -I .\Driver -I .\GD32_lib -I .\GD32_lib\Include-ID:\Users\prato\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DGD32F30X_HD-o .\objects\led_drv.o --omf_browse .\objects\led_drv.crf --depend .\objects\led_drv.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x68F1F6B7)
+I (.\Arm_kernel\gd32f30x.h)(0x688B5B58)
+I (.\Arm_kernel\core_cm4.h)(0x688B5B58)
+I (.\Arm_kernel\core_cmInstr.h)(0x688B5B58)
+I (.\Arm_kernel\core_cmFunc.h)(0x688B5B58)
+I (.\Arm_kernel\core_cm4_simd.h)(0x688B5B58)
+I (.\Arm_kernel\system_gd32f30x.h)(0x688B5B58)
+I (.\GD32_lib\gd32f30x_libopt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_rcu.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_adc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_can.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_crc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_ctc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dac.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dbg.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dma.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_exti.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_fmc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_fwdgt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_gpio.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_i2c.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_pmu.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_bkp.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_rtc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_sdio.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_spi.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_timer.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_usart.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_wwdgt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_misc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_enet.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_exmc.h)(0x688B5B58)
+I (Driver\led_drv.h)(0x6A0C195D)
+F (.\Driver\iap_drv.c)(0x6A2296D6)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Arm_kernel -I .\Driver -I .\GD32_lib -I .\GD32_lib\Include-ID:\Users\prato\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DGD32F30X_HD-o .\objects\iap_drv.o --omf_browse .\objects\iap_drv.crf --depend .\objects\iap_drv.d)
+I (.\Arm_kernel\gd32f30x.h)(0x688B5B58)
+I (.\Arm_kernel\core_cm4.h)(0x688B5B58)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x68F1F6B7)
+I (.\Arm_kernel\core_cmInstr.h)(0x688B5B58)
+I (.\Arm_kernel\core_cmFunc.h)(0x688B5B58)
+I (.\Arm_kernel\core_cm4_simd.h)(0x688B5B58)
+I (.\Arm_kernel\system_gd32f30x.h)(0x688B5B58)
+I (.\GD32_lib\gd32f30x_libopt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_rcu.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_adc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_can.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_crc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_ctc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dac.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dbg.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dma.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_exti.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_fmc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_fwdgt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_gpio.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_i2c.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_pmu.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_bkp.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_rtc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_sdio.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_spi.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_timer.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_usart.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_wwdgt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_misc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_enet.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_exmc.h)(0x688B5B58)
+I (Driver\inflash_drv.h)(0x6A229224)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
+F (.\Driver\inflash_drv.c)(0x6A2291FB)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Arm_kernel -I .\Driver -I .\GD32_lib -I .\GD32_lib\Include-ID:\Users\prato\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DGD32F30X_HD-o .\objects\inflash_drv.o --omf_browse .\objects\inflash_drv.crf --depend .\objects\inflash_drv.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x68F1F6B7)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (.\Arm_kernel\gd32f30x.h)(0x688B5B58)
+I (.\Arm_kernel\core_cm4.h)(0x688B5B58)
+I (.\Arm_kernel\core_cmInstr.h)(0x688B5B58)
+I (.\Arm_kernel\core_cmFunc.h)(0x688B5B58)
+I (.\Arm_kernel\core_cm4_simd.h)(0x688B5B58)
+I (.\Arm_kernel\system_gd32f30x.h)(0x688B5B58)
+I (.\GD32_lib\gd32f30x_libopt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_rcu.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_adc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_can.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_crc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_ctc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dac.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dbg.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dma.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_exti.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_fmc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_fwdgt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_gpio.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_i2c.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_pmu.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_bkp.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_rtc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_sdio.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_spi.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_timer.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_usart.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_wwdgt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_misc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_enet.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_exmc.h)(0x688B5B58)
+I (Driver\inflash_drv.h)(0x6A229224)
+F (.\Driver\md5.c)(0x6A2270A2)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Arm_kernel -I .\Driver -I .\GD32_lib -I .\GD32_lib\Include-ID:\Users\prato\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DGD32F30X_HD-o .\objects\md5.o --omf_browse .\objects\md5.crf --depend .\objects\md5.d)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (Driver\md5.h)(0x6A2270A2)
+F (.\Arm_kernel\startup_gd32f30x_hd.s)(0x6A26374E)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\Users\prato\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 531" --pd "GD32F30X_HD SETA 1"--list .\listings\startup_gd32f30x_hd.lst --xref -o .\objects\startup_gd32f30x_hd.o --depend .\objects\startup_gd32f30x_hd.d)
+F (.\Arm_kernel\system_gd32f30x.c)(0x688B5B58)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Arm_kernel -I .\Driver -I .\GD32_lib -I .\GD32_lib\Include-ID:\Users\prato\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DGD32F30X_HD-o .\objects\system_gd32f30x.o --omf_browse .\objects\system_gd32f30x.crf --depend .\objects\system_gd32f30x.d)
+I (Arm_kernel\gd32f30x.h)(0x688B5B58)
+I (Arm_kernel\core_cm4.h)(0x688B5B58)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x68F1F6B7)
+I (.\Arm_kernel\core_cmInstr.h)(0x688B5B58)
+I (.\Arm_kernel\core_cmFunc.h)(0x688B5B58)
+I (.\Arm_kernel\core_cm4_simd.h)(0x688B5B58)
+I (Arm_kernel\system_gd32f30x.h)(0x688B5B58)
+I (.\GD32_lib\gd32f30x_libopt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_rcu.h)(0x688B5B58)
+I (.\Arm_kernel\gd32f30x.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_adc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_can.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_crc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_ctc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dac.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dbg.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dma.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_exti.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_fmc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_fwdgt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_gpio.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_i2c.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_pmu.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_bkp.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_rtc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_sdio.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_spi.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_timer.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_usart.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_wwdgt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_misc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_enet.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_exmc.h)(0x688B5B58)
+F (.\GD32_lib\Source\gd32f30x_gpio.c)(0x688B5B58)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Arm_kernel -I .\Driver -I .\GD32_lib -I .\GD32_lib\Include-ID:\Users\prato\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DGD32F30X_HD-o .\objects\gd32f30x_gpio.o --omf_browse .\objects\gd32f30x_gpio.crf --depend .\objects\gd32f30x_gpio.d)
+I (.\GD32_lib\Include\gd32f30x_gpio.h)(0x688B5B58)
+I (.\Arm_kernel\gd32f30x.h)(0x688B5B58)
+I (.\Arm_kernel\core_cm4.h)(0x688B5B58)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x68F1F6B7)
+I (.\Arm_kernel\core_cmInstr.h)(0x688B5B58)
+I (.\Arm_kernel\core_cmFunc.h)(0x688B5B58)
+I (.\Arm_kernel\core_cm4_simd.h)(0x688B5B58)
+I (.\Arm_kernel\system_gd32f30x.h)(0x688B5B58)
+I (.\GD32_lib\gd32f30x_libopt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_rcu.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_adc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_can.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_crc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_ctc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dac.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dbg.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dma.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_exti.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_fmc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_fwdgt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_i2c.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_pmu.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_bkp.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_rtc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_sdio.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_spi.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_timer.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_usart.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_wwdgt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_misc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_enet.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_exmc.h)(0x688B5B58)
+F (.\GD32_lib\Source\gd32f30x_rcu.c)(0x688B5B58)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Arm_kernel -I .\Driver -I .\GD32_lib -I .\GD32_lib\Include-ID:\Users\prato\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DGD32F30X_HD-o .\objects\gd32f30x_rcu.o --omf_browse .\objects\gd32f30x_rcu.crf --depend .\objects\gd32f30x_rcu.d)
+I (.\GD32_lib\Include\gd32f30x_rcu.h)(0x688B5B58)
+I (.\Arm_kernel\gd32f30x.h)(0x688B5B58)
+I (.\Arm_kernel\core_cm4.h)(0x688B5B58)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x68F1F6B7)
+I (.\Arm_kernel\core_cmInstr.h)(0x688B5B58)
+I (.\Arm_kernel\core_cmFunc.h)(0x688B5B58)
+I (.\Arm_kernel\core_cm4_simd.h)(0x688B5B58)
+I (.\Arm_kernel\system_gd32f30x.h)(0x688B5B58)
+I (.\GD32_lib\gd32f30x_libopt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_adc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_can.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_crc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_ctc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dac.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dbg.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dma.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_exti.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_fmc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_fwdgt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_gpio.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_i2c.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_pmu.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_bkp.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_rtc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_sdio.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_spi.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_timer.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_usart.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_wwdgt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_misc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_enet.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_exmc.h)(0x688B5B58)
+F (.\GD32_lib\Source\gd32f30x_misc.c)(0x688B5B58)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Arm_kernel -I .\Driver -I .\GD32_lib -I .\GD32_lib\Include-ID:\Users\prato\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DGD32F30X_HD-o .\objects\gd32f30x_misc.o --omf_browse .\objects\gd32f30x_misc.crf --depend .\objects\gd32f30x_misc.d)
+I (.\GD32_lib\Include\gd32f30x_misc.h)(0x688B5B58)
+I (.\Arm_kernel\gd32f30x.h)(0x688B5B58)
+I (.\Arm_kernel\core_cm4.h)(0x688B5B58)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x68F1F6B7)
+I (.\Arm_kernel\core_cmInstr.h)(0x688B5B58)
+I (.\Arm_kernel\core_cmFunc.h)(0x688B5B58)
+I (.\Arm_kernel\core_cm4_simd.h)(0x688B5B58)
+I (.\Arm_kernel\system_gd32f30x.h)(0x688B5B58)
+I (.\GD32_lib\gd32f30x_libopt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_rcu.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_adc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_can.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_crc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_ctc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dac.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dbg.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dma.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_exti.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_fmc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_fwdgt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_gpio.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_i2c.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_pmu.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_bkp.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_rtc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_sdio.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_spi.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_timer.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_usart.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_wwdgt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_enet.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_exmc.h)(0x688B5B58)
+F (.\GD32_lib\Source\gd32f30x_usart.c)(0x688B5B58)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Arm_kernel -I .\Driver -I .\GD32_lib -I .\GD32_lib\Include-ID:\Users\prato\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DGD32F30X_HD-o .\objects\gd32f30x_usart.o --omf_browse .\objects\gd32f30x_usart.crf --depend .\objects\gd32f30x_usart.d)
+I (.\GD32_lib\Include\gd32f30x_usart.h)(0x688B5B58)
+I (.\Arm_kernel\gd32f30x.h)(0x688B5B58)
+I (.\Arm_kernel\core_cm4.h)(0x688B5B58)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x68F1F6B7)
+I (.\Arm_kernel\core_cmInstr.h)(0x688B5B58)
+I (.\Arm_kernel\core_cmFunc.h)(0x688B5B58)
+I (.\Arm_kernel\core_cm4_simd.h)(0x688B5B58)
+I (.\Arm_kernel\system_gd32f30x.h)(0x688B5B58)
+I (.\GD32_lib\gd32f30x_libopt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_rcu.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_adc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_can.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_crc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_ctc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dac.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dbg.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dma.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_exti.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_fmc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_fwdgt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_gpio.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_i2c.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_pmu.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_bkp.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_rtc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_sdio.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_spi.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_timer.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_wwdgt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_misc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_enet.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_exmc.h)(0x688B5B58)
+F (.\GD32_lib\Source\gd32f30x_fmc.c)(0x688B5B58)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\App -I .\Arm_kernel -I .\Driver -I .\GD32_lib -I .\GD32_lib\Include-ID:\Users\prato\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.5.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DGD32F30X_HD-o .\objects\gd32f30x_fmc.o --omf_browse .\objects\gd32f30x_fmc.crf --depend .\objects\gd32f30x_fmc.d)
+I (.\GD32_lib\Include\gd32f30x_fmc.h)(0x688B5B58)
+I (.\Arm_kernel\gd32f30x.h)(0x688B5B58)
+I (.\Arm_kernel\core_cm4.h)(0x688B5B58)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x68F1F6B7)
+I (.\Arm_kernel\core_cmInstr.h)(0x688B5B58)
+I (.\Arm_kernel\core_cmFunc.h)(0x688B5B58)
+I (.\Arm_kernel\core_cm4_simd.h)(0x688B5B58)
+I (.\Arm_kernel\system_gd32f30x.h)(0x688B5B58)
+I (.\GD32_lib\gd32f30x_libopt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_rcu.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_adc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_can.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_crc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_ctc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dac.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dbg.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_dma.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_exti.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_fwdgt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_gpio.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_i2c.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_pmu.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_bkp.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_rtc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_sdio.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_spi.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_timer.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_usart.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_wwdgt.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_misc.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_enet.h)(0x688B5B58)
+I (.\GD32_lib\Include\gd32f30x_exmc.h)(0x688B5B58)
