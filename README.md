@@ -19,23 +19,22 @@ The companion Bootloader project is responsible for reading the upgrade metadata
 
 ```text
 22_wifi_ota_app_download_md5/
-©À©¤©¤ App/
-©¦   ©À©¤©¤ main.c          # App entry, driver init, WiFi task, key-confirmed upgrade
-©¦   ©À©¤©¤ wifi_app.c      # WiFi/HTTP OTA state machine
-©¦   ©À©¤©¤ wifi_app.h
-©¦   ©À©¤©¤ store_app.c     # Version and OTA metadata storage
-©¦   ©¸©¤©¤ store_app.h
-©À©¤©¤ Driver/
-©¦   ©À©¤©¤ wifi_drv.c      # WiFi UART/DMA driver
-©¦   ©À©¤©¤ inflash_drv.c   # Internal Flash read/write/erase driver
-©¦   ©À©¤©¤ iap_drv.c       # Reset back to Bootloader
-©¦   ©À©¤©¤ md5.c           # MD5 implementation
-©¦   ©¸©¤©¤ ...
-©À©¤©¤ GD32_lib/           # GD32 peripheral library
-©À©¤©¤ Arm_kernel/         # Startup file
-©À©¤©¤ ARM.uvprojx         # Keil uVision project
-©¸©¤©¤ Objects/ARM.sct     # Scatter file, App link address
-```
+â”œâ”€â”€ App/
+â”‚   â”œâ”€â”€ main.c             # App entry, driver init, WiFi task, key-confirmed upgrade
+â”‚   â”œâ”€â”€ wifi_app.c         # WiFi/HTTP OTA state machine
+â”‚   â”œâ”€â”€ wifi_app.h
+â”‚   â”œâ”€â”€ store_app.c        # Version and OTA metadata storage
+â”‚   â””â”€â”€ store_app.h
+â”œâ”€â”€ Driver/
+â”‚   â”œâ”€â”€ wifi_drv.c         # WiFi UART/DMA driver
+â”‚   â”œâ”€â”€ inflash_drv.c      # Internal Flash read/write/erase driver
+â”‚   â”œâ”€â”€ iap_drv.c          # Reset back to Bootloader
+â”‚   â”œâ”€â”€ md5.c              # MD5 implementation
+â”‚   â””â”€â”€ ...
+â”œâ”€â”€ GD32_lib/              # GD32 peripheral library
+â”œâ”€â”€ Arm_kernel/            # Startup file
+â”œâ”€â”€ ARM.uvprojx            # Keil uVision project
+â””â”€â”€ Objects/ARM.sct        # Scatter file, App link address
 
 ## OTA Architecture
 
