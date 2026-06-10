@@ -1,0 +1,17 @@
+.\objects\main.o: App\main.c
+.\objects\main.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: .\Driver\led_drv.h
+.\objects\main.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: .\Driver\delay.h
+.\objects\main.o: .\Driver\usb2com_drv.h
+.\objects\main.o: .\Driver\systick.h
+.\objects\main.o: .\Driver\key_drv.h
+.\objects\main.o: .\Driver\wifi_drv.h
+.\objects\main.o: App\wifi_app.h
+.\objects\main.o: .\Driver\ntc_drv.h
+.\objects\main.o: .\Driver\rh_drv.h
+.\objects\main.o: .\Driver\rtc_drv.h
+.\objects\main.o: .\Driver\iap_drv.h
+.\objects\main.o: App\store_app.h
+.\objects\main.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\main.o: .\Driver\inflash_drv.h

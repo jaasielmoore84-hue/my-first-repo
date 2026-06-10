@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "gd32f30x.h": "c",
+        "key_exti.h": "c",
+        "usb2com_drv.h": "c",
+        "delay.h": "c",
+        "rtc_drv.h": "c"
+    },
+    "C_Cpp.default.compilerPath": "d:\\Keil_v5\\ARM\\ARMCC\\bin\\armcc.exe"
+}
